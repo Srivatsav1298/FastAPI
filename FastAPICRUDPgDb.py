@@ -15,7 +15,7 @@ class Post(BaseModel):
     published: bool=True
     rating: Optional[int]=None
 try:
-	conn = psycopg2.connect(host='localhost', database='fastapi', user='postgres', password='Ronick58', 
+	conn = psycopg2.connect(host='localhost', database='', user='', password='', 
 		cursor_factory=RealDictCursor)
 	# 'cursor is used to execute SQL statements'
 	cursor=conn.cursor()
